@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Checkout</title>
+  </head>
+  <body>
+    <style>
+      body {
+        background: url("img/background-pic4.jpeg");
+      }
+      #cart {
+        width: 300px;
+        height: 350px;
+        object-fit: cover;
+        border-radius: 20px;
+        margin-left: 20px;
+        padding-top:10px
+      }
+      h2, p{
+        margin-left:40px;
+        font-size:25px;
+      }
+
+      .checkout-button {
+        background-color: blue;
+        color: white;
+        padding: 10px;
+        border: none;
+        border-radius: 10px;
+        font-family: "Mochiy Pop One", sans-serif;
+        font-size: 20px;
+        margin-left: 350px;
+        margin-top: 60px;
+      }
+
+      .div {
+        height: 600px;
+        width: 500px;
+        border-radius: 50px;
+        border: none;
+        box-shadow: -1px 2px 6px rgba(10, 11, 12, 1.05);
+        backdrop-filter: blur(10px);
+        margin-top: 20px;
+        display: inline-block;
+        padding:20px;
+      }
+      .div2 {
+        margin-left: 700px;
+        margin-top: -550px;
+        border-radius: 50px;
+        border: none;
+        box-shadow: -1px 2px 6px rgba(10, 11, 12, 1.05);
+        backdrop-filter: blur(15px);
+        padding-left: 20px;
+        padding-bottom: 15px;
+      }
+      h1 {
+        font-size: 100px;
+        color: #000;
+      }
+    </style>
+    <div class="div">
+      <img
+        id="cart"
+        src="img/Grilled Cedar Plank Salmon [45 Minutes].jpeg"
+        alt="Item 1"
+      />
+      <h2>Item 1</h2>
+      <p>Price: $10.99</p>
+      <button class="checkout-button">Checkout</button>
+    </div>
+    <div class="div2">
+      <h1>Thanks for shopping</h1>
+    </div>
+  </body>
+</html>
